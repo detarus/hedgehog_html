@@ -91,7 +91,7 @@ $a45: 2.344vw;
   &__el {
     display: flex;
     align-items: center;
-    gap: 4.948vw;
+    gap: 5.148vw;
     height: 100%;
   }
   &__nav {
@@ -485,7 +485,7 @@ span.bold {
 //------ SOLUTION SECTION - START -----
 
 .solutions {
-  padding: 8.333vw 0 7.813vw;
+  padding: 8.333vw 0 5.813vw;
   position: relative;
   overflow: hidden;
   margin-top: -3vw;
@@ -538,7 +538,7 @@ span.bold {
       }
       &.online {
         right: 14.5vw;
-        bottom: 9.5vw;
+        bottom: 7.5vw;
       }
       &.mb-30 {
         margin-bottom: 3.646vw;
@@ -557,29 +557,29 @@ span.bold {
       position: relative;
       &.betting {
         img {
-          width: 33.333vw;
-          height: 27.083vw;
+          width: 39.333vw;
+          height: 31.083vw;
           position: absolute;
-          left: 2vw;
-          top: -17vw;
+          left: -2vw;
+          top: -18vw;
         }
       }
       &.forex {
         img {
-          width: 35.677vw;
-          height: 22.917vw;
+          width: 41.677vw;
+          height: 38.917vw;
           position: absolute;
-          left: 0;
-          top: -20vw;
+          left: -3vw;
+          top: -28vw;
         }
       }
       &.online {
        img {
-        width: 30.625vw;
-        height: 23.229vw;
+        width: 36.625vw;
+        height: 31.229vw;
         position: absolute;
-        left: 2vw;
-        top: -17vw;
+        left: -2vw;
+        top: -20vw;    
        }
       }
     }
@@ -649,9 +649,9 @@ span.bold {
     &:nth-child(2) {
       img {
         width: 30.573vw;
-        height: 23.438vw;
+        height: 26.438vw;
         left: 3vw;
-        top: -100%;
+        top: -12vw;
       }
     }
     &:nth-child(3) {
@@ -903,7 +903,7 @@ span.bold {
   h2 {
     text-align: center;
     color: #EFEFEF;
-    margin-bottom: 4.688vw;
+    margin-bottom: 9.588vw;
   }
   &__content {
     display: flex;
@@ -995,7 +995,7 @@ span.bold {
         border: 1px solid #4C4C72;
       }
       &.textarea {
-        height: 13.6vw;
+        height: 100%;
         resize: none;
       }
     }
@@ -1403,22 +1403,37 @@ span.bold {
     font-size: 13.189vw;
   }
   &__item {
-    
+    &.mb-180 {
+      margin-bottom: 21.375vw;
+    }
+    &.mb-230 {
+      margin-bottom: 5.979vw;
+    }
     &-with-image {
       &.betting {
         right: -21vw;
-        top: 45vw;
+        top: 53vw;
         img {
-          width: 46.763vw;
-          height: 36.091vw;
+          width: 47.763vw;
+          height: 42.091vw;
+          top: -30vw;
+          left: -8vw;
         }
       }
       &.forex {
         margin-left: -7.208vw;
+        margin-top: -10vw;
+        .desktop {
+          display: none;
+        }
+        .mobile {
+          display: block;
+        }
         img {
           width: 46.763vw;
-          height: 36.091vw;
-          top: -31vw;
+          height: 38.091vw;
+          top: -33vw;
+          left: 1vw;
         }
       }
       &.online {
@@ -1442,7 +1457,7 @@ span.bold {
       margin-bottom: 2.398vw;
     }
     > div > p {
-      font-size: 1.679vw;
+      font-size: 1.699vw;
     }
   }
  }
@@ -1476,9 +1491,10 @@ span.bold {
         margin-left: auto;
       }
       img {
-        top: -4vw;
-        width: 40.168vw;
-        height: 30.695vw;
+        top: -13vw;
+        width: 45.168vw;
+        height: 37.695vw;
+        left: -5vw;
       }
     }
     &:nth-child(3) {
@@ -1735,7 +1751,7 @@ span.bold {
     padding: 0 6.25vw;
   }
   h2 {
-    font-size: 12.5vw;
+    font-size: 10.3vw;
   }
   h3 {
     font-size: 9.375vw;
@@ -1745,10 +1761,10 @@ span.bold {
       font-size: 18vw;
     }
     &__top {
-      padding-top: 12.821vw;
+      padding-top: 15.5vw;
     }
     &__logo {
-      width:31.25vw;
+      width: 31vw;
       height: 17.188vw;
     }
     &__box {
@@ -1765,7 +1781,7 @@ span.bold {
     }
   }
   .offer  {
-    padding: 9.313vw 0 25.875vw;
+    padding: 9.613vw 0 25.875vw;
     &__advanatges {
       bottom: 18vw;
     }
@@ -1831,8 +1847,9 @@ span.bold {
   }
 
   .solutions {
-    padding: 25.333vw 0 20.813vw;
-    margin-top: -14vw;
+    padding: 16.333vw 0 20.813vw;
+    margin-top: -6vw;
+    background: url('../images/bg-gray-mobile.svg') no-repeat 50% 17% / cover;
     &__header {
       padding-right: 10px;
       width: 100%;
@@ -1908,6 +1925,7 @@ span.bold {
   .advantages {
     padding: 25.813vw 0 20.813vw;
     margin-top: -11vw;
+    background: url('../images/bg-blue-mobile.svg') no-repeat 50% 0% / cover;
     h2 {
       margin-bottom: 5.388vw;
     }
@@ -1920,6 +1938,7 @@ span.bold {
         top: -11vw;
         left: auto;
         rotate: 0deg;
+        transform: scale(1.15);
       }
       &:nth-child(2) img {
         width: 79.597vw;
@@ -1968,6 +1987,7 @@ span.bold {
   .geography {
     padding: 21.906vw 0 61.656vw;
     margin-top: -13vw;
+      background: url('../images/bg-black-mobile.svg') no-repeat 50% 17% / cover ;
     &__image {
       height: 52.82vw;
       width: 60.583vw;
@@ -2029,6 +2049,7 @@ span.bold {
   .team {
     padding: 20.813vw 0 18.473vw;
     margin-top: -10vw;
+    background: url('../images/bg-pink-mobile.svg') no-repeat 50% 0% / cover;
     h2 {
       margin-bottom: 15.625vw;
     }
@@ -2058,6 +2079,7 @@ span.bold {
     width: 100%;
     padding: 23.908vw 0 17.008vw;
     margin-top: -10vw;
+    background: url('../images/bg-green-mobile.svg') no-repeat 50% 0% / cover ;
     h2 {
       font-size: 12.5vw;
       line-height: 0.9em;
@@ -2106,6 +2128,7 @@ span.bold {
   .footer {
     padding: 20.708vw 0 0;
     margin-top: -11vw;
+    background: url('../images/bg-black-mobile.svg') no-repeat 50% 0% / cover ;
     &__word {
       font-size: 16.784vw;
     }
