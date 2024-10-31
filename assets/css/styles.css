@@ -2181,12 +2181,13 @@ span.bold {
   .languages ul {
     padding: 4.038vw 1.03vw;
     padding-top: 11vw;
+    transform: translate(-6%, -30%);
   }
   .languages ul li {
     font-size: 3.518vw;
   }
   .languages ul li:not(:last-child) {
-    margin-bottom: 2.599vw;
+    margin-bottom: 3.599vw;
   }
   .contacts__form-success {
     border-radius: 6.25vw;

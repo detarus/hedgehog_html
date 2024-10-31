@@ -2213,10 +2213,11 @@ span.bold {
     ul {
       padding: 4.038vw 1.03vw;
       padding-top: 11vw;
+      transform: translate(-6%, -30%);
       li {
         font-size: 3.518vw;
         &:not(:last-child) {
-          margin-bottom: 2.599vw;
+          margin-bottom: 3.599vw;
       }
       }
     }
