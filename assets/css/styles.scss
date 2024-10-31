@@ -19,6 +19,7 @@ $a45: 2.344vw;
   border: 3px solid $subcolor;
   transform: translate(-50%, -50%);
   border-radius: 2.344vw;
+  pointer-events: none;
 }
 
 .transparent-text-maincolor-border {
@@ -171,6 +172,11 @@ $a45: 2.344vw;
     position: relative;
     margin-right: -$a10;
     transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      background-color: #fff;
+    }
     &:before {
       @include button-border;
     }
@@ -185,6 +191,11 @@ $a45: 2.344vw;
     text-align: center;
     padding: $a10 $a30;
     border-radius: $a45;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      background-color: #fff;
+    }
   }
   &__burger {
     display: none;
@@ -347,6 +358,11 @@ $a45: 2.344vw;
     position: absolute;
     right: 17vw;
     bottom: 11.5vw;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      background-color: #fff;
+    }
     &:before {
       @include button-border;
       border: 7px solid $subcolor;
@@ -577,7 +593,7 @@ span.bold {
       color: $mainColor;
       font-weight: 600;
       text-transform: uppercase;
-      line-height: 0.8em;
+      line-height: 0.825em;
       margin-bottom: 2.083vw;
     }
     div {
@@ -634,13 +650,13 @@ span.bold {
       img {
         width: 30.573vw;
         height: 23.438vw;
-        left: 0;
+        left: 3vw;
         top: -100%;
       }
     }
     &:nth-child(3) {
       img {
-        width: 33.333vw;
+        width: 31.333vw;
         height: 27.604vw;
         left: 3vw;
         top: -9vw;
@@ -684,7 +700,7 @@ span.bold {
       font-size: 2.604vw;
       color: #EFEFEF;
       font-weight: 600;
-      line-height: 0.8em;
+      line-height: 0.82em;
       margin-bottom: 2.083vw;
     }
     p {
@@ -786,11 +802,11 @@ span.bold {
     font-size: 1.823vw;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 1.042vw 1.563vw;
+    padding: 0.842vw 1.563vw;
     line-height: 1em;
     border-radius: 0.26vw;
-    flex-shrink: 0;
     min-width: max-content;
+    flex-shrink: 100!important;
     &_pink {
       color: $mainColor;
       border: 2px solid $mainColor;
@@ -962,6 +978,7 @@ span.bold {
       color: #4C4C72;
       border-radius: 0.25vw;
       background: transparent;
+      font-family: "Poppins", sans-serif;
       box-sizing: border-box;
       width: 100%;
       &.required {
@@ -969,7 +986,7 @@ span.bold {
       }
       &::placeholder {
         color: #4C4C72; 
-        font-family: "Poppins", sans-serif;
+        
       }
       &:active,
       &:focus {
@@ -1036,9 +1053,10 @@ span.bold {
       border-radius: 3.646vw;
       display: block;
       width: 24.479vw;
-      padding: 0.781vw 0;
+      padding: 0.681vw 0;
       margin: 0 auto;
       background: transparent;
+      font-size: 1.25vw;
     }
     &-success {
       position: absolute;

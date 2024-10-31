@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setLanguage('EN');
   }
 
-  const languageLinks = document.querySelectorAll('.languages a');
+  const languageLinks = document.querySelectorAll('.languages ul li a');
   languageLinks.forEach(link => {
     link.addEventListener('click', function(event) {
       const targetLang = event.target.textContent.trim();
@@ -169,25 +169,25 @@ window.addEventListener('DOMContentLoaded', function () {
           submitButton.setAttribute("disabled", "disabled");
 
           const formData = new FormData(form);
-
-          try {
-              const response = await fetch('/mail', {
-                  method: 'POST',
-                  body: formData
-              });
+          success.classList.add('active')
+          // try {
+          //     const response = await fetch('/mail', {
+          //         method: 'POST',
+          //         body: formData
+          //     });
        
-              if (response.ok) {
-                success.classList.add('active')
-                form.reset();
-                form.querySelectorAll("[required]").forEach(input => input.classList.remove("required"));
-              } else {
-                  alert("Возникла ошибка!");
-              }
-          } catch (error) {
-              alert("Возникла ошибка!");
-          } finally {
-              submitButton.removeAttribute("disabled");
-          }
+          //     if (response.ok) {
+          //       success.classList.add('active')
+          //       form.reset();
+          //       form.querySelectorAll("[required]").forEach(input => input.classList.remove("required"));
+          //     } else {
+          //         alert("Возникла ошибка!");
+          //     }
+          // } catch (error) {
+          //     alert("Возникла ошибка!");
+          // } finally {
+          //     submitButton.removeAttribute("disabled");
+          // }
       });
   }
 

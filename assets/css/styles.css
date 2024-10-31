@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Cera Pro";
-  src: url("../../assets/fonts/CeraPro-Bold.eot");
-  src: url("../../assets/fonts/CeraPro-Bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/CeraPro-Bold.woff2") format("woff2"), url("../../assets/fonts/CeraPro-Bold.woff") format("woff"), url("../../assets/fonts/CeraPro-Bold.ttf") format("truetype");
+  src: url("../fonts/CeraPro-Bold.eot");
+  src: url("../fonts/CeraPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Bold.woff2") format("woff2"), url("../fonts/CeraPro-Bold.woff") format("woff"), url("../fonts/CeraPro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -252,6 +252,11 @@ body.isMobileOpen {
   position: relative;
   margin-right: -0.521vw;
   transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.header__contact-us:hover {
+  background-color: #fff;
 }
 .header__contact-us:before {
   content: "";
@@ -264,6 +269,7 @@ body.isMobileOpen {
   border: 3px solid #543EFA;
   transform: translate(-50%, -50%);
   border-radius: 2.344vw;
+  pointer-events: none;
 }
 .header__login {
   font-family: "Cera Pro", sans-serif;
@@ -275,6 +281,11 @@ body.isMobileOpen {
   text-align: center;
   padding: 0.521vw 1.563vw;
   border-radius: 2.344vw;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.header__login:hover {
+  background-color: #fff;
 }
 .header__burger {
   display: none;
@@ -434,6 +445,11 @@ body.isMobileOpen {
   position: absolute;
   right: 17vw;
   bottom: 11.5vw;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.offer__readmore:hover {
+  background-color: #fff;
 }
 .offer__readmore:before {
   content: "";
@@ -446,6 +462,7 @@ body.isMobileOpen {
   border: 3px solid #543EFA;
   transform: translate(-50%, -50%);
   border-radius: 2.344vw;
+  pointer-events: none;
   border: 7px solid #543EFA;
 }
 .offer__advanatges {
@@ -479,6 +496,7 @@ body.isMobileOpen {
   border: 3px solid #543EFA;
   transform: translate(-50%, -50%);
   border-radius: 2.344vw;
+  pointer-events: none;
   border: 7px solid #543EFA;
   border-radius: 2.969vw;
 }
@@ -500,6 +518,7 @@ body.isMobileOpen {
   border: 3px solid #543EFA;
   transform: translate(-50%, -50%);
   border-radius: 2.344vw;
+  pointer-events: none;
   border: 7px solid #543EFA;
   border-radius: 2.969vw;
 }
@@ -536,6 +555,7 @@ body.isMobileOpen {
   border: 3px solid #543EFA;
   transform: translate(-50%, -50%);
   border-radius: 2.344vw;
+  pointer-events: none;
 }
 .languages__container > img {
   width: 0.781vw;
@@ -685,7 +705,7 @@ span.bold {
   color: #F580F7;
   font-weight: 600;
   text-transform: uppercase;
-  line-height: 0.8em;
+  line-height: 0.825em;
   margin-bottom: 2.083vw;
 }
 .solutions__header div > p {
@@ -732,11 +752,11 @@ span.bold {
 .advantages__item:nth-child(2) img {
   width: 30.573vw;
   height: 23.438vw;
-  left: 0;
+  left: 3vw;
   top: -100%;
 }
 .advantages__item:nth-child(3) img {
-  width: 33.333vw;
+  width: 31.333vw;
   height: 27.604vw;
   left: 3vw;
   top: -9vw;
@@ -773,7 +793,7 @@ span.bold {
   font-size: 2.604vw;
   color: #EFEFEF;
   font-weight: 600;
-  line-height: 0.8em;
+  line-height: 0.82em;
   margin-bottom: 2.083vw;
 }
 .advantages__item p {
@@ -867,12 +887,12 @@ span.bold {
   font-size: 1.823vw;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 1.042vw 1.563vw;
+  padding: 0.842vw 1.563vw;
   line-height: 1em;
   border-radius: 0.26vw;
-  flex-shrink: 0;
   min-width: -moz-max-content;
   min-width: max-content;
+  flex-shrink: 100 !important;
 }
 .geography__item_pink {
   color: #F580F7;
@@ -930,6 +950,7 @@ span.bold {
   border: 3px solid #543EFA;
   transform: translate(-50%, -50%);
   border-radius: 2.344vw;
+  pointer-events: none;
   border: 7px solid #151529;
   border-radius: 2.969vw;
 }
@@ -1035,6 +1056,7 @@ span.bold {
   color: #4C4C72;
   border-radius: 0.25vw;
   background: transparent;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   width: 100%;
 }
@@ -1043,11 +1065,9 @@ span.bold {
 }
 .contacts__form-field::-moz-placeholder {
   color: #4C4C72;
-  font-family: "Poppins", sans-serif;
 }
 .contacts__form-field::placeholder {
   color: #4C4C72;
-  font-family: "Poppins", sans-serif;
 }
 .contacts__form-field:active, .contacts__form-field:focus {
   border: none;
@@ -1111,9 +1131,10 @@ span.bold {
   border-radius: 3.646vw;
   display: block;
   width: 24.479vw;
-  padding: 0.781vw 0;
+  padding: 0.681vw 0;
   margin: 0 auto;
   background: transparent;
+  font-size: 1.25vw;
 }
 .contacts__form-success {
   position: absolute;
