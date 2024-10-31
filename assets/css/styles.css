@@ -327,7 +327,7 @@ body.isMobileOpen {
   z-index: 10;
   overflow: hidden;
   transform: translate(-50%, 0);
-  padding: 6.25vw 9.375vw;
+  padding: 8.25vw 9.375vw;
   animation: fadeIn 0.3s linear forwards;
 }
 .header__mobile-menu.active {
@@ -336,7 +336,7 @@ body.isMobileOpen {
 .header__mobile-menu .close-menu {
   position: absolute;
   right: 13vw;
-  top: 7vw;
+  top: 9vw;
   width: 7.813vw;
   height: 7.813vw;
 }
@@ -375,19 +375,20 @@ body.isMobileOpen {
 .header__mobile-menu-inner span {
   display: block;
   width: 100%;
-  height: 2px;
+  height: 1px;
   background: rgb(245, 128, 247);
   background: linear-gradient(90deg, rgb(245, 128, 247) 0%, rgba(70, 51, 220, 0) 57%);
   position: absolute;
   left: 0;
 }
 .header__mobile-menu-inner span.one {
-  bottom: 66vw;
+  bottom: 63vw;
 }
 .header__mobile-menu-inner span.two {
-  bottom: 38vw;
+  bottom: 36.5vw;
 }
 .header__mobile-menu-contacts {
+  font-family: "Cera Pro", sans-serif;
   width: 45.313vw;
   text-transform: uppercase;
   border-radius: 9.375vw;
@@ -396,9 +397,11 @@ body.isMobileOpen {
   text-align: center;
   font-weight: 700;
   color: #543EFA;
+  font-size: 5vw;
 }
 .header__mobile-menu-login {
-  width: 67vw;
+  font-family: "Cera Pro", sans-serif;
+  width: 69vw;
   margin: 0 auto;
   background-color: #BEF941;
   text-transform: uppercase;
@@ -407,6 +410,7 @@ body.isMobileOpen {
   padding: 3.125vw 0;
   text-align: center;
   font-weight: 700;
+  font-size: 5vw;
 }
 
 .offer {
@@ -417,6 +421,9 @@ body.isMobileOpen {
   font-weight: 600;
   text-indent: 7.1vw;
   line-height: 6.823vw;
+}
+.offer h1 br {
+  display: none;
 }
 .offer .etherium-icon {
   position: absolute;
@@ -655,6 +662,9 @@ span.bold {
 }
 .solutions__item-with-image.forex .desktop {
   display: block;
+}
+.solutions__item-with-image.forex .tablet {
+  display: none;
 }
 .solutions__item-with-image.online {
   right: 14.5vw;
@@ -1314,7 +1324,8 @@ span.bold {
     font-size: 4.796vw;
   }
   .header .word {
-    font-size: 17.784vw;
+    font-size: 19.184vw;
+    left: -0.7vw;
   }
   .header__wrapper {
     position: relative;
@@ -1359,6 +1370,7 @@ span.bold {
   .header__top {
     padding-top: 4.796vw;
     align-items: center;
+    padding-bottom: 0;
   }
   .header__logo {
     width: 13.189vw;
@@ -1380,6 +1392,12 @@ span.bold {
     padding: 1.199vw 3.597vw;
     font-size: 1.918vw;
     border-radius: 5.396vw;
+  }
+  .header__box {
+    gap: 3.563vw;
+  }
+  .header__el {
+    gap: 7.148vw;
   }
   .languages__container {
     padding: 1.4vw 3.597vw;
@@ -1403,16 +1421,24 @@ span.bold {
     margin-bottom: 1.199vw;
   }
   .offer {
-    padding: 3.204vw 0 17.021vw;
+    padding: 7.304vw 0 18.021vw;
+  }
+  .offer h1 {
+    text-indent: 6.1vw;
+  }
+  .offer h1 span.bold {
+    font-size: 9.1vw;
   }
   .offer .etherium-icon {
-    left: 6.5vw;
+    left: 5.5vw;
+    top: 5.6vw;
   }
   .offer .bitcoin-img {
-    right: 17.5vw;
+    right: 17vw;
+    top: 14vw;
   }
   .offer__readmore {
-    padding: 1.199vw 3.597vw;
+    padding: 0.96vw 3.197vw;
     font-size: 1.918vw;
     border-radius: 5.396vw;
     right: 8vw;
@@ -1423,7 +1449,7 @@ span.bold {
   }
   .offer__advanatges {
     left: 7vw;
-    bottom: 12vw;
+    bottom: 13vw;
   }
   .offer__advanatges-users {
     padding: 0.4vw 2.158vw;
@@ -1450,13 +1476,18 @@ span.bold {
   }
   .solutions {
     margin-top: -5vw;
+    padding: 8.33vw 0 10.333vw;
     overflow: hidden;
+    background: url("../images/bg-gray-tablet.svg") no-repeat 50% 17%/cover;
   }
   .solutions .transparent-text {
     font-size: 13.189vw;
   }
+  .solutions__content {
+    padding-top: 6vw;
+  }
   .solutions__item.mb-180 {
-    margin-bottom: 21.375vw;
+    margin-bottom: 22vw;
   }
   .solutions__item.mb-230 {
     margin-bottom: 5.979vw;
@@ -1466,9 +1497,9 @@ span.bold {
     top: 53vw;
   }
   .solutions__item-with-image.betting img {
-    width: 47.763vw;
-    height: 42.091vw;
-    top: -30vw;
+    width: 49.763vw;
+    height: 45.091vw;
+    top: -32vw;
     left: -8vw;
   }
   .solutions__item-with-image.forex {
@@ -1478,14 +1509,17 @@ span.bold {
   .solutions__item-with-image.forex .desktop {
     display: none;
   }
-  .solutions__item-with-image.forex .mobile {
+  .solutions__item-with-image.forex .tablet {
     display: block;
+  }
+  .solutions__item-with-image.forex .mobile {
+    display: none;
   }
   .solutions__item-with-image.forex img {
     width: 46.763vw;
     height: 38.091vw;
-    top: -33vw;
-    left: 1vw;
+    top: -34vw;
+    left: 4vw;
   }
   .solutions__item-with-image.online {
     right: -4.5vw;
@@ -1493,9 +1527,9 @@ span.bold {
   }
   .solutions__item-with-image.online img {
     width: 38.969vw;
-    height: 29.376vw;
-    left: -4vw;
-    top: -20vw;
+    height: 39.376vw;
+    left: -6vw;
+    top: -25vw;
   }
   .solutions__header {
     max-width: 45.564vw;
@@ -1510,8 +1544,9 @@ span.bold {
     font-size: 1.699vw;
   }
   .advantages {
-    padding: 7.813vw 0 10.813vw;
+    padding: 11.813vw 0 13.813vw;
     overflow: hidden;
+    background: url("../images/bg-blue-tablet.svg") no-repeat 50% 0%/cover;
   }
   .advantages h2 {
     margin-bottom: 14.388vw;
@@ -1522,6 +1557,9 @@ span.bold {
   .advantages__item {
     max-width: 100%;
   }
+  .advantages__item h4 {
+    margin-bottom: 2.4vw;
+  }
   .advantages__item img {
     transform: translateY(0%);
   }
@@ -1531,7 +1569,7 @@ span.bold {
     right: -3vw;
     top: -13vw;
     left: auto;
-    rotate: 28deg;
+    rotate: 21deg;
   }
   .advantages__item:nth-child(2) .advantages__item-text {
     margin-left: auto;
@@ -1589,10 +1627,15 @@ span.bold {
   }
   .geography {
     margin-top: -6vw;
-    padding: 12.906vw 0 10.656vw;
+    padding: 12.906vw 0 11.856vw;
+    background: url("../images/geography-bg-tablet.svg") no-repeat 50% 0/cover;
   }
   .geography__title {
     padding-left: 7vw;
+    max-width: 73.615vw;
+  }
+  .geography__title h2 {
+    margin-bottom: 3.553vw;
   }
   .geography__title p {
     font-size: 1.679vw;
@@ -1601,17 +1644,21 @@ span.bold {
   .geography__image {
     height: 24.82vw;
     width: 21.583vw;
-    top: 13vw;
+    top: 20vw;
   }
   .geography__box {
-    right: -1vw;
-    bottom: 8vw;
+    right: 2vw;
+    bottom: 13vw;
+    transform: rotate(-5deg);
   }
   .geography__button {
     font-size: 2.398vw;
     width: 20.024vw;
     height: 5.396vw;
     padding: 1.3vw 0;
+  }
+  .geography__button:before {
+    border-radius: 6.715vw;
   }
   .geography__button img {
     width: 18.844vw;
@@ -1621,6 +1668,10 @@ span.bold {
     font-size: 2.998vw;
     padding: 1.299vw 2.518vw;
     border-radius: 0.6vw;
+  }
+  .team {
+    padding: 11.813vw 0 12.073vw;
+    background: url("../images/bg-pink-tablet.svg") no-repeat 50% 0%/cover;
   }
   .team__info p {
     font-size: 1.679vw;
@@ -1636,8 +1687,12 @@ span.bold {
     max-width: 45vw;
   }
   .contacts {
-    padding: 15.908vw 0 12.008vw;
+    padding: 13.908vw 0 12.008vw;
     margin-top: -6vw;
+    background: url("../images/bg-green-tablet.svg") no-repeat 50% 0%/cover;
+  }
+  .contacts .wrapper {
+    max-width: 94.227vw;
   }
   .contacts__img {
     width: 218.825vw;
@@ -1652,19 +1707,20 @@ span.bold {
   }
   .contacts__container {
     padding: 5.995vw 0;
+    border-radius: 2.398vw;
   }
   .contacts__content {
     max-width: 66.547vw;
   }
   .contacts__form-button {
     width: 100%;
-    padding: 1.799vw 0;
+    padding: 1.599vw 0;
     font-size: 2.878vw;
   }
   .contacts__form-wrapper {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5.995vw;
+    margin-bottom: 5.795vw;
   }
   .contacts__form-item {
     max-width: 100%;
@@ -1672,6 +1728,7 @@ span.bold {
   .contacts__form-field {
     padding: 2.518vw 3.597vw;
     font-size: 1.918vw;
+    border-radius: 0.6vw;
   }
   .contacts__form-field::-moz-placeholder {
     font-size: 1.918vw;
@@ -1679,15 +1736,22 @@ span.bold {
   .contacts__form-field::placeholder {
     font-size: 1.918vw;
   }
+  .contacts__form-field.textarea {
+    height: 23vw;
+  }
   .contacts__form-label {
     font-size: 1.918vw;
     border-radius: 0.6vw;
+    left: 3.7vw;
   }
   .contacts__form-row:not(:last-child) {
     margin-bottom: 4.796vw;
   }
   .contacts__form-row.textarea {
     margin-top: 2.5vw;
+  }
+  .footer {
+    background: url("../images/bg-black-tablet.svg") no-repeat 50% 0%/cover;
   }
   .footer__text {
     font-size: 2.158vw;
@@ -1706,11 +1770,15 @@ span.bold {
   }
   .footer__word {
     font-size: 17.784vw;
+    margin-bottom: -4vw;
   }
   .footer__logo {
     width: 8.753vw;
     height: 4.916vw;
     order: -1;
+  }
+  .footer__bottom {
+    padding: 2vw 0;
   }
   .footer__bottom-inner p {
     font-size: 1.439vw;
@@ -1749,7 +1817,8 @@ span.bold {
     font-size: 9.375vw;
   }
   .header .word {
-    font-size: 18vw;
+    font-size: 20vw;
+    margin-left: -2vw;
   }
   .header__top {
     padding-top: 15.5vw;
@@ -1769,15 +1838,18 @@ span.bold {
     margin-bottom: 1.563vw;
   }
   .offer {
-    padding: 9.613vw 0 25.875vw;
+    padding: 9.613vw 0 27.875vw;
   }
   .offer__advanatges {
-    bottom: 18vw;
+    bottom: 19vw;
   }
   .offer h1 {
     line-height: 0.8em;
     text-indent: 12.5vw;
     font-size: 12.5vw;
+  }
+  .offer h1 br {
+    display: block;
   }
   .offer h1 span {
     font-size: 16.56vw;
@@ -1788,6 +1860,7 @@ span.bold {
     line-height: 0.8em;
     margin-bottom: 3.125vw;
     display: block;
+    line-height: 0.85em;
   }
   .offer .etherium-icon {
     width: 20.75vw;
@@ -1798,8 +1871,8 @@ span.bold {
   .offer .bitcoin-img {
     width: 15.75vw;
     height: 15.75vw;
-    right: 16.5vw;
-    top: 40%;
+    right: 14.5vw;
+    top: 48%;
   }
   .offer__readmore {
     display: none;
@@ -1808,6 +1881,7 @@ span.bold {
     padding: 0.05vw 4.675vw;
     border-radius: 9.375vw;
     font-size: 4.375vw;
+    letter-spacing: -0.04em;
   }
   .offer__advanatges-users:before {
     border: 3px solid #543EFA;
@@ -1833,7 +1907,7 @@ span.bold {
     border-radius: 9.375vw;
   }
   .solutions {
-    padding: 16.333vw 0 20.813vw;
+    padding: 16.333vw 0 17.813vw;
     margin-top: -6vw;
     background: url("../images/bg-gray-mobile.svg") no-repeat 50% 17%/cover;
   }
@@ -1851,6 +1925,9 @@ span.bold {
   .solutions__header > div > p:not(:last-child) {
     margin-bottom: 3.125vw;
   }
+  .solutions__content {
+    padding-top: 9.6vw;
+  }
   .solutions .transparent-text {
     font-size: 25vw;
   }
@@ -1859,6 +1936,9 @@ span.bold {
   }
   .solutions__item.mb-180 {
     margin-bottom: 100.25vw;
+  }
+  .solutions__item.mb-230 {
+    margin-bottom: 15.579vw;
   }
   .solutions__item-with-image {
     position: static;
@@ -1879,12 +1959,12 @@ span.bold {
   .solutions__item-with-image.betting img {
     width: 84.375vw;
     height: 75.625vw;
-    left: 18vw;
-    top: -47vw;
+    left: 14vw;
+    top: -49vw;
   }
   .solutions__item-with-image.forex {
     margin-left: 0;
-    padding-top: 58vw;
+    padding-top: 68vw;
   }
   .solutions__item-with-image.forex .mobile {
     display: block;
@@ -1892,30 +1972,35 @@ span.bold {
   .solutions__item-with-image.forex .desktop {
     display: none;
   }
+  .solutions__item-with-image.forex .tablet {
+    display: none;
+  }
   .solutions__item-with-image.forex img {
-    width: 78.125vw;
-    height: 75vw;
-    top: -61vw;
+    width: 89.125vw;
+    height: 70vw;
+    top: -59vw;
+    left: -5vw;
   }
   .solutions__item-with-image.online {
     padding-top: 50vw;
   }
   .solutions__item-with-image.online img {
     width: 90.625vw;
-    height: 68.75vw;
-    top: -52vw;
-    left: 3vw;
+    height: 88.75vw;
+    top: -63vw;
+    left: 0vw;
+    transform: scale(1.08);
   }
   .advantages {
-    padding: 25.813vw 0 20.813vw;
+    padding: 17.813vw 0 22.813vw;
     margin-top: -11vw;
     background: url("../images/bg-blue-mobile.svg") no-repeat 50% 0%/cover;
   }
   .advantages h2 {
     margin-bottom: 5.388vw;
   }
-  .advantages__item {
-    padding-top: 60vw;
+  .advantages__item:nth-child(1) {
+    padding-top: 57vw;
   }
   .advantages__item:nth-child(1) img {
     width: 97.597vw;
@@ -1926,34 +2011,54 @@ span.bold {
     rotate: 0deg;
     transform: scale(1.15);
   }
+  .advantages__item:nth-child(2) {
+    padding-top: 75vw;
+  }
   .advantages__item:nth-child(2) img {
-    width: 79.597vw;
-    height: 78.564vw;
-    top: -9vw;
-    left: 5vw;
+    width: 89.597vw;
+    height: 81.564vw;
+    top: -6vw;
+    left: 1vw;
+    transform: scale(1.15);
+  }
+  .advantages__item:nth-child(3) {
+    padding-top: 75vw;
   }
   .advantages__item:nth-child(3) img {
-    width: 82.597vw;
-    height: 82.564vw;
-    top: -7vw;
+    width: 88.597vw;
+    height: 76.564vw;
+    top: 4vw;
+    transform: scale(1.1);
+  }
+  .advantages__item:nth-child(4) {
+    padding-top: 75vw;
   }
   .advantages__item:nth-child(4) img {
-    width: 73.597vw;
-    height: 53.564vw;
+    width: 84.597vw;
+    height: 65.564vw;
     top: 1vw;
-    left: 7vw;
+    left: 2vw;
+    transform: scale(1.1);
+  }
+  .advantages__item:nth-child(5) {
+    padding-top: 72vw;
   }
   .advantages__item:nth-child(5) img {
-    width: 80.597vw;
+    width: 87.597vw;
     height: 77.564vw;
-    top: 27vw;
-    left: -25px;
+    top: -4vw;
+    left: -2vw;
+    transform: scale(1.2) rotate(-8deg);
+  }
+  .advantages__item:nth-child(6) {
+    padding-top: 95vw;
   }
   .advantages__item:nth-child(6) img {
-    top: 32vw;
+    top: 5vw;
     width: 90.36vw;
-    height: 75.564vw;
-    left: -1vw;
+    height: 91.564vw;
+    left: -2vw;
+    transform: scale(1.1);
   }
   .advantages__item p {
     font-size: 4.063vw;
@@ -2206,7 +2311,8 @@ span.bold {
   .languages ul {
     padding: 4.038vw 1.03vw;
     padding-top: 11vw;
-    transform: translate(-6%, -30%);
+    transform: translate(-11%, -30%);
+    width: 25vw;
   }
   .languages ul li {
     font-size: 3.518vw;
