@@ -1,0 +1,111 @@
+
+//fonts 
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-Bold.eot');
+  src: url('../fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CeraPro-Bold.woff2') format('woff2'),
+      url('../fonts/CeraPro-Bold.woff') format('woff'),
+      url('../fonts/CeraPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 7.708vw;
+  line-height: 0.8em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 7.813vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 4.167vw;
+  font-weight: 600;
+}
+
+button {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+div,
+p,
+a,
+ul,
+li,
+span,
+img {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #1D174AB2;
+  &.isMobileOpen {
+    overflow: hidden;
+  }
+}
+
+.wrapper {
+  max-width: 82.813vw;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.center {
+  text-align: center;
+}

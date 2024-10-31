@@ -1,0 +1,74 @@
+h1 {
+  font-size: 6.608vw;
+}
+
+.offer .bitcoin-img {
+  right: 10.5vw;
+}
+
+.offer__readmore {
+  right: 8.5vw;
+}
+
+.solutions__item-with-image.betting {
+  top: 35vw;
+}
+
+.solutions__item-with-image.forex {
+  margin-top: -6vw;
+}
+
+.solutions__item.mb-230 {
+  margin-bottom: 3.979vw;
+}
+
+.solutions__item.mb-150 {
+  margin-bottom: 14.379vw;
+}
+
+@media screen and (max-width:834px) {
+  .offer .bitcoin-img {
+    right: 14.5vw;
+  }
+  
+  .offer__readmore {
+    right: 8.5vw;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .offer h1 span,
+  .offer h1 span.bold {
+    font-size: 11.56vw;
+  }
+
+  .offer h1 {
+    font-size: 10.5vw;
+    text-indent: 10.5vw;
+  }
+
+  .offer .bitcoin-img {
+    width: 12.75vw;
+    height: 12.75vw;
+    right: 23.5vw;
+    top: 42%;
+  }
+
+  .offer .etherium-icon {
+    width: 16.75vw;
+    height: 16.75vw;
+    top: 4.5vw;
+    left: 4.5vw;
+}
+ 
+  .offer__advanatges-experiance,
+  .offer__advanatges-users {
+      font-size: 3.375vw;
+  }
+  .solutions__item-with-image.betting {
+    top: auto;
+  }
+  .solutions {
+    margin-top: -15vw;
+  }
+}
