@@ -17,26 +17,26 @@ navLinks.forEach(link => {
 
 // ------------------------------------------------
 
-// add active class to navigation links on scroll
-window.addEventListener('scroll', () => {
-  let scrollPosition = window.scrollY;
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.offsetHeight;
+// // add active class to navigation links on scroll
+// window.addEventListener('scroll', () => {
+//   let scrollPosition = window.scrollY;
+//   sections.forEach((section) => {
+//     const sectionTop = section.offsetTop;
+//     const sectionHeight = section.offsetHeight;
 
-    if (scrollPosition >= (sectionTop - 100) && scrollPosition < sectionTop + sectionHeight) {
-      const currentId = section.getAttribute('id');
-      navLinks.forEach((link) => {
-        const closest = link.closest('LI');
-        if(closest) {
-          link.closest('LI').classList.remove('active');
-        }
+//     if (scrollPosition >= (sectionTop - 100) && scrollPosition < sectionTop + sectionHeight) {
+//       const currentId = section.getAttribute('id');
+//       navLinks.forEach((link) => {
+//         const closest = link.closest('LI');
+//         if(closest) {
+//           link.closest('LI').classList.remove('active');
+//         }
         
-      });
-      document.querySelector(`.header__nav ul li a[href="#${currentId}"]`).closest('LI').classList.add('active');
-    }
-  });
-});
+//       });
+//       document.querySelector(`.header__nav ul li a[href="#${currentId}"]`).closest('LI').classList.add('active');
+//     }
+//   });
+// });
 
 // Language switcher
 document.addEventListener('DOMContentLoaded', function() {
@@ -72,6 +72,7 @@ const menuBtnClose = document.querySelector('.header__close');
 const tabletMenu = document.querySelector('.header__menu');
 const mobileMenu = document.querySelector('.header__mobile-menu')
 const closeMenu = document.querySelector('.close-menu');
+const mobileLinks = document.querySelectorAll('.mobile-link-js');
 
 if(menuBtn && window.innerWidth > 520) {
   menuBtn.addEventListener('click', () => {
@@ -93,6 +94,15 @@ if(menuBtn && window.innerWidth > 520) {
   closeMenu.addEventListener('click', () => {
     mobileMenu.classList.toggle('active')
     document.body.classList.remove('isMobileOpen')
+  })
+}
+
+if(mobileLinks) {
+  mobileLinks.forEach(item => {
+    item.addEventListener('click', () => {
+      document.body.classList.remove('isMobileOpen')
+      mobileMenu.classList.remove('active')
+    })
   })
 }
 
