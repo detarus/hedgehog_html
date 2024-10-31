@@ -153,6 +153,7 @@ body.isMobileOpen {
   left: 0;
   bottom: -1.302vw;
   line-height: 0.8em;
+  letter-spacing: -0.04em;
 }
 .header .bg-line {
   width: 100%;
@@ -569,10 +570,10 @@ body.isMobileOpen {
   width: 100%;
   left: 0;
   top: 100%;
-  transform: translateY(-35%);
+  transform: translateY(-30%);
   background-color: #fff;
-  padding: 0.521vw 0.938vw;
-  padding-top: 2.5vw;
+  padding: 0.321vw 0.938vw 0.6vw;
+  padding-top: 2.2vw;
   color: #543EFA;
   border-radius: 0.5vw;
   z-index: 1;
@@ -587,7 +588,7 @@ body.isMobileOpen {
   transition: color 0.3s;
 }
 .languages ul li:not(:last-child) {
-  margin-bottom: 0.65vw;
+  margin-bottom: 0.75vw;
 }
 .languages ul li:hover {
   color: #F580F7;
@@ -1234,7 +1235,7 @@ span.bold {
   color: #F580F7;
 }
 .footer__word {
-  font-size: 15.052vw;
+  font-size: 15.452vw;
   color: #F580F7;
   font-weight: 700;
   text-transform: uppercase;

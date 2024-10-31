@@ -72,6 +72,7 @@ $a45: 2.344vw;
     left: 0;
     bottom: -1.302vw;
     line-height: 0.8em;
+    letter-spacing: -0.04em;
   }
   .bg-line {
     width: 100%;
@@ -444,10 +445,10 @@ $a45: 2.344vw;
     width: 100%;
     left: 0;
     top: 100%;
-    transform: translateY(-35%);
+    transform: translateY(-30%);
     background-color: #fff;
-    padding: 0.521vw 0.938vw;
-    padding-top: 2.5vw;
+    padding: 0.321vw 0.938vw 0.6vw;
+    padding-top: 2.2vw;
     color: $subcolor;
     border-radius: 0.5vw;
     z-index: 1;
@@ -460,7 +461,7 @@ $a45: 2.344vw;
       line-height: 0.9em;
       transition: color 0.3s;
       &:not(:last-child) {
-        margin-bottom: 0.65vw;
+        margin-bottom: 0.75vw;
       }
       &:hover {
         color: $mainColor;
@@ -1161,7 +1162,7 @@ span.bold {
     }
   }
   &__word {
-    font-size: 15.052vw;
+    font-size: 15.452vw;
     color: $mainColor;
     font-weight: 700;
     text-transform: uppercase;
