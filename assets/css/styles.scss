@@ -1398,6 +1398,7 @@ span.bold {
     bottom: 17vw;
     &:before {
       border-radius: $a45;
+      border-width: 4px;
     }
   }
   &__advanatges {
@@ -1420,6 +1421,9 @@ span.bold {
     border-radius: $a45;
     font-size: 1.918vw;
     transform: translateX(-5px);
+    &:before {
+      border-width: 4px;
+    }
     span {
       font-size: 2.758vw;
     }

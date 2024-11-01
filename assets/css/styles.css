@@ -1450,6 +1450,7 @@ span.bold {
   }
   .offer__readmore:before {
     border-radius: 5.396vw;
+    border-width: 4px;
   }
   .offer__advanatges {
     left: 7vw;
@@ -1471,6 +1472,9 @@ span.bold {
     border-radius: 5.396vw;
     font-size: 1.918vw;
     transform: translateX(-5px);
+  }
+  .offer__advanatges-experiance:before {
+    border-width: 4px;
   }
   .offer__advanatges-experiance span {
     font-size: 2.758vw;
