@@ -498,7 +498,7 @@ span.bold {
   position: relative;
   overflow: hidden;
   margin-top: -3vw;
-  background: url('../images/bg-gray.webp') no-repeat 50% 17% / cover;
+  background: url('../images/bg-gray.svg') no-repeat 50% 17% / cover;
   &__img {
     position: absolute;
     left: 0;
@@ -629,7 +629,7 @@ span.bold {
   padding: 7.813vw 0 7.813vw;
   position: relative;
   margin-top: -3vw;
-  background: url('../images/bg-blue.webp') no-repeat 50% 0% / cover;
+  background: url('../images/bg-blue.svg') no-repeat 50% 0% / cover;
   h2 {
     color: $mainColor;
     margin-bottom: 25.646vw ;
@@ -651,11 +651,12 @@ span.bold {
     }
     &:nth-child(1) {
       img {
-        width: 43.542vw;
-        height: 36.615vw;
+        width: 33.542vw;
+        height: 34.615vw;
         left: 0;
-        top: -72%;
+        top: -27vw;
         z-index: 1;
+        transform: scale(1.2);
       }
     }
     &:nth-child(2) {
@@ -805,7 +806,7 @@ span.bold {
   }
   &__content {
     .swiper-wrapper {
-      gap: 30px;
+      gap: 1.563vw;
     }
     &.mb-30 {
       margin-bottom: $a30;
@@ -819,8 +820,8 @@ span.bold {
     font-size: 1.823vw;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 0.842vw 1.563vw;
-    line-height: 1em;
+    padding: 0.922vw 1.563vw;
+    line-height: 0.9em;
     border-radius: 0.26vw;
     min-width: max-content;
     flex-shrink: 100!important;
@@ -916,7 +917,7 @@ span.bold {
   padding: 7.813vw 0 9.473vw;
   position: relative;
   margin-top: -3vw;
-  background: url('../images/bg-pink.webp') no-repeat 50% 0% / cover;
+  background: url('../images/bg-pink.svg') no-repeat 50% 0% / cover;
   h2 {
     text-align: center;
     color: #EFEFEF;
@@ -957,7 +958,7 @@ span.bold {
   overflow: hidden;
   padding: 8.908vw 0 8.008vw;
   margin-top: -4vw;
-  background: url('../images/bg-green.webp') no-repeat 50% 0% / cover ;
+  background: url('../images/bg-green.svg') no-repeat 50% 0% / cover ;
   &__img {
     position: absolute;
     left: 0;
@@ -1009,7 +1010,13 @@ span.bold {
       &:focus {
         border: none;
         outline: none;
-        border: 1px solid #4C4C72;
+        border: 1px solid #F580F7;
+        + label {
+          color: #F580F7;
+        }
+        + span {
+          color: #F580F7;
+        }
       }
       &.textarea {
         height: 100%;
@@ -1140,7 +1147,7 @@ span.bold {
   overflow: hidden;
   padding: 11.708vw 0 0;
   margin-top: -4vw;
-  background: url('../images/bg-black.webp') no-repeat 50% 0% / cover ;
+  background: url('../images/bg-black.svg') no-repeat 50% 0% / cover ;
   z-index: 10;
   &__text {
     text-align: center;
