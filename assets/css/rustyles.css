@@ -34,6 +34,40 @@ h1 {
   .offer__readmore {
     right: 8.5vw;
   }
+
+  .offer h1 span.bold {
+    font-size: 7.5vw;
+  }
+
+  .solutions__item-with-image.betting {
+    top: 44vw;
+  }
+
+  .solutions__item.mb-180 {
+    margin-bottom: 14vw;
+  }
+
+  .solutions__item-with-image.online img {
+    width: 47.969vw;
+    height: 49.376vw;
+    left: -5vw;
+    top: -34vw;
+  }
+
+  .footer__word {
+    margin-left: -6vw;
+  }
+
+  .geography__box {
+    right: -1vw;
+    bottom: 18vw;
+    transform: rotate(-5deg);
+  }
+
+  .geography__item {
+    margin-right: 0!important;
+  }
+
 }
 
 @media screen and (max-width: 520px) {
