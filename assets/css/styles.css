@@ -2199,14 +2199,14 @@ span.bold {
   }
   .contacts__form-field {
     padding: 1.988vw 4.688vw;
-    font-size: 3.363vw;
+    font-size: 4.063vw;
     border-radius: 0.938vw;
   }
   .contacts__form-field::-moz-placeholder {
-    font-size: 3.363vw;
+    font-size: 4.063vw;
   }
   .contacts__form-field::placeholder {
-    font-size: 3.363vw;
+    font-size: 4.063vw;
   }
   .contacts__form-field.textarea {
     height: 28vw;
