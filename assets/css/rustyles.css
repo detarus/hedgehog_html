@@ -137,6 +137,10 @@ h1 {
     margin-bottom: 10.979vw;
   }
 
+  .solutions__item.mb-150 {
+    margin-bottom: 6.379vw;
+  }
+
   .solutions__item-with-image.online img {
     width: 80.969vw;
     height: 80.376vw;
