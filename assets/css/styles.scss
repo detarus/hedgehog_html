@@ -1326,7 +1326,9 @@ span.bold {
       height: 7.434vw;
     }
     &__burger {
-      display: block;
+      &.tablet {
+        display: block;
+      }
     }
     &__contact-us {
       padding: $a10 $a30;
@@ -1845,6 +1847,12 @@ span.bold {
       display: none;
     }
     &__burger {
+      &.tablet {
+        display: none;
+      }
+      &.mobile {
+        display: block;
+      }
       span {
         width: 7.813vw;
         height: 0.625vw;

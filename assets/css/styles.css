@@ -1380,7 +1380,7 @@ span.bold {
     width: 13.189vw;
     height: 7.434vw;
   }
-  .header__burger {
+  .header__burger.tablet {
     display: block;
   }
   .header__contact-us {
@@ -1837,6 +1837,12 @@ span.bold {
   }
   .header__box {
     display: none;
+  }
+  .header__burger.tablet {
+    display: none;
+  }
+  .header__burger.mobile {
+    display: block;
   }
   .header__burger span {
     width: 7.813vw;

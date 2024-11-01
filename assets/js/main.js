@@ -67,26 +67,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Mobile menu open
 
-const menuBtn = document.querySelector('.header__burger');
+const menuBtnTablet = document.querySelector('.header__burger.tablet');
+const menuBtnMobile = document.querySelector('.header__burger.mobile');
 const menuBtnClose = document.querySelector('.header__close');
 const tabletMenu = document.querySelector('.header__menu');
 const mobileMenu = document.querySelector('.header__mobile-menu')
 const closeMenu = document.querySelector('.close-menu');
 const mobileLinks = document.querySelectorAll('.mobile-link-js');
 
-if(menuBtn && window.innerWidth > 520) {
-  menuBtn.addEventListener('click', () => {
+
+  menuBtnTablet.addEventListener('click', () => {
     tabletMenu.classList.toggle('active')
-    menuBtn.classList.toggle('active')
+    menuBtnTablet.classList.toggle('active')
     menuBtnClose.classList.add('active')
   })
   menuBtnClose.addEventListener('click', () => {
     tabletMenu.classList.remove('active')
-    menuBtn.classList.remove('active')
+    menuBtnTablet.classList.remove('active')
     menuBtnClose.classList.remove('active')
   })
-} else {
-  menuBtn.addEventListener('click', () => {
+
+  menuBtnMobile.addEventListener('click', () => {
     mobileMenu.classList.toggle('active')
     document.body.classList.add('isMobileOpen')
 
@@ -95,7 +96,7 @@ if(menuBtn && window.innerWidth > 520) {
     mobileMenu.classList.toggle('active')
     document.body.classList.remove('isMobileOpen')
   })
-}
+
 
 if(mobileLinks) {
   mobileLinks.forEach(item => {
