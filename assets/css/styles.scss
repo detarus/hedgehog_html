@@ -46,6 +46,7 @@ $a45: 2.344vw;
 //----- Hero screen - start -------
 .header {
   position: relative;
+  overflow: hidden;
   background-color: $subcolor;
   padding-bottom: 5.208vw;
   &__inner {
