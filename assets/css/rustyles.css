@@ -6,6 +6,14 @@ h1 {
   right: 10.5vw;
 }
 
+.d-hidden {
+  display: none;
+}
+
+.offer h1  .hide {
+  display: none;
+}
+
 .offer__readmore {
   right: 8.5vw;
 }
@@ -71,28 +79,33 @@ h1 {
 }
 
 @media screen and (max-width: 520px) {
-  .offer h1 span,
+  .offer h1 span, 
   .offer h1 span.bold {
-    font-size: 11.56vw;
+    font-size: 12.5vw;
+  }
+
+  .offer h1 span.bold {
+    margin-bottom: 0;
   }
 
   .offer h1 {
-    font-size: 10.5vw;
-    text-indent: 10.5vw;
+    font-size: 10.9vw;
+    text-indent: 7.5vw;
+    line-height: 9.063vw;
   }
 
   .offer .bitcoin-img {
-    width: 12.75vw;
-    height: 12.75vw;
-    right: 23.5vw;
-    top: 42%;
+    width: 10.75vw;
+    height: 10.75vw;
+    right: 11.5vw;
+    top: 55%;
   }
 
   .offer .etherium-icon {
-    width: 16.75vw;
-    height: 16.75vw;
-    top: 4.5vw;
-    left: 4.5vw;
+    width: 14.75vw;
+    height: 14.75vw;
+    top: 7.5vw;
+    left: 3.5vw;
 }
  
   .offer__advanatges-experiance,
@@ -101,6 +114,15 @@ h1 {
   }
   .solutions__item-with-image.betting {
     top: auto;
+  }
+
+  .offer h1 .m-hidden {
+    display: none;
+  }
+
+  .offer h1 .hide {
+    display: inline;
+    font-size: 10.9vw;
   }
   
 }
