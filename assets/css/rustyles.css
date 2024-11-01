@@ -94,6 +94,15 @@ h1 {
     line-height: 9.063vw;
   }
 
+  .offer h1 .m-hidden {
+    display: none;
+  }
+
+  .offer h1 .hide {
+    display: inline;
+    font-size: 10.9vw;
+  }
+
   .offer .bitcoin-img {
     width: 10.75vw;
     height: 10.75vw;
@@ -116,13 +125,33 @@ h1 {
     top: auto;
   }
 
-  .offer h1 .m-hidden {
-    display: none;
+  .solutions__item.mb-180 {
+    margin-bottom: 97vw;
   }
 
-  .offer h1 .hide {
-    display: inline;
-    font-size: 10.9vw;
+  .solutions__item-with-image.forex {
+    padding-top: 63vw;
   }
+
+  .solutions__item.mb-230 {
+    margin-bottom: 10.979vw;
+  }
+
+  .solutions__item-with-image.online img {
+    width: 80.969vw;
+    height: 80.376vw;
+    left: -2vw;
+    top: -59vw;
+    }
+
+    .geography__box {
+      right: 10vw;
+      bottom: -11vw;
+      transform: rotate(-2deg);
+    }
+
+    .geography__item {
+      margin-right: 4.688vw!important;
+    }
   
 }
