@@ -2282,7 +2282,7 @@ span.bold {
       padding: 6.25vw 0 ;
       &-payments {
         gap: 2.521vw;
-        padding: 2vw 0;
+        padding: 1vw 0 4.5vw;
         img:nth-child(1) {
           width: 10.625vw;
           height: 6.25vw;
@@ -2302,9 +2302,7 @@ span.bold {
         text-align: center;
         p {
           font-size: 3.75vw;
-          &:nth-child(1) {
-            order: 5;
-          }
+          order: 5;
         }
       }
       &-row {

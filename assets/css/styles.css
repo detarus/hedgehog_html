@@ -2260,7 +2260,7 @@ span.bold {
   }
   .footer__bottom-payments {
     gap: 2.521vw;
-    padding: 2vw 0;
+    padding: 1vw 0 4.5vw;
   }
   .footer__bottom-payments img:nth-child(1) {
     width: 10.625vw;
@@ -2281,8 +2281,6 @@ span.bold {
   }
   .footer__bottom-inner p {
     font-size: 3.75vw;
-  }
-  .footer__bottom-inner p:nth-child(1) {
     order: 5;
   }
   .footer__bottom-row {
