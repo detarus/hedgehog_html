@@ -180,7 +180,7 @@ $a45: 2.344vw;
     }
   }
   &__contact-us {
-    font-family: 'Cera Pro', sans-serif;
+    font-family: 'Cera Pro-bold', sans-serif;
     color: $subcolor;
     background-color: $mainColor;
     font-size: 0.833vw;
@@ -202,7 +202,7 @@ $a45: 2.344vw;
     }
   }
   &__login {
-    font-family: 'Cera Pro', sans-serif;
+    font-family: 'Cera Pro-bold', sans-serif;
     color: $subcolor;
     background-color: $green;
     font-size: 0.833vw;
@@ -317,7 +317,7 @@ $a45: 2.344vw;
       }
     }
     &-contacts {
-      font-family: "Cera Pro", sans-serif;
+      font-family: "Cera Pro-bold", sans-serif;
       width: 45.313vw;
       text-transform: uppercase;
       border-radius: 9.375vw;
@@ -329,7 +329,7 @@ $a45: 2.344vw;
       font-size: 5vw;
     }
     &-login {
-      font-family: "Cera Pro", sans-serif;
+      font-family: "Cera Pro-bold", sans-serif;
       width: 69vw;
       margin: 0 auto;
       background-color: #BEF941;
@@ -439,7 +439,7 @@ $a45: 2.344vw;
   z-index: 5;
   &__container {
     position: relative;
-    font-family: 'Cera Pro', sans-serif;
+    font-family: 'Cera Pro-bold', sans-serif;
     color: $subcolor;
     text-transform: uppercase;
     background:#fff;
@@ -479,7 +479,7 @@ $a45: 2.344vw;
     opacity: 0;
     transition: opacity 0.3s;
     li {
-      font-family: 'Cera Pro', sans-serif;
+      font-family: 'Cera Pro-bold', sans-serif;
       font-size: 0.833vw;
       text-transform: uppercase;
       line-height: 0.9em;
@@ -882,7 +882,7 @@ span.bold {
     font-size: 1.667vw;
     background-color: #F580F7;
     text-transform: uppercase;
-    font-family: "Cera Pro", sans-serif;
+    font-family: "Cera Pro-bold", sans-serif;
     font-weight: 600;
     border-radius: 4.688vw;
     padding: 0.96vw 0;
@@ -1068,7 +1068,7 @@ span.bold {
       color: #BEF941;
       transform: translate(0%, -50%);
       font-size: 0.833vw;
-      font-family: 'Cera Pro', sans-serif;
+      font-family: 'Cera Pro-bold', sans-serif;
       &:before {
         content: '';
         background-color: #151529;
@@ -1090,7 +1090,7 @@ span.bold {
       margin-bottom: 2.604vw;
     }
     &-button {
-      font-family: 'Cera Pro', sans-serif;
+      font-family: 'Cera Pro-bold', sans-serif;
       color: #BEF941;
       text-transform: uppercase;
       text-align: center;
@@ -2320,7 +2320,7 @@ span.bold {
       li {
         &:hover {
           color: #AB27AD;
-          
+
         }
         &:not(:last-child) {
           margin-bottom:  6.25vw;
