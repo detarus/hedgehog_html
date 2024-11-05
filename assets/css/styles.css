@@ -2,7 +2,7 @@
   font-family: "Cera Pro";
   src: url("../fonts/CeraPro-Bold.eot");
   src: url("../fonts/CeraPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CeraPro-Bold.woff2") format("woff2"), url("../fonts/CeraPro-Bold.woff") format("woff"), url("../fonts/CeraPro-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
