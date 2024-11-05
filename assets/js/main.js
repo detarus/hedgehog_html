@@ -71,7 +71,7 @@ const menuBtnTablet = document.querySelector('.header__burger.tablet');
 const menuBtnMobile = document.querySelector('.header__burger.mobile');
 const menuBtnClose = document.querySelector('.header__close');
 const tabletMenu = document.querySelector('.header__menu');
-const mobileMenu = document.querySelector('.header__mobile-menu')
+const mobileMenu = document.querySelector('.c-modal')
 const closeMenu = document.querySelector('.close-menu');
 const mobileLinks = document.querySelectorAll('.mobile-link-js');
 

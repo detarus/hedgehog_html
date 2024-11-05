@@ -43,6 +43,23 @@ $a45: 2.344vw;
 }
 
 
+.c-modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+  animation: fadeIn 0.3s linear forwards;
+  &.active {
+    display: flex;
+    padding-top: 32vw;
+    justify-content: center;
+  }
+}
+
 //----- Hero screen - start -------
 .header {
   position: relative;
@@ -228,21 +245,18 @@ $a45: 2.344vw;
     }
   }
   &__mobile-menu {
-    display: none;
     background-color: $subcolor;
-    width: 100%;
-    height: 151.5vw;
-    position: absolute;
-    left: 50%;
-    top: 0%;
+    width: 87.5vw;
+    height: 142.5vw;
     z-index: 10;
     overflow: hidden;
-    transform: translate(-50%, 0);
+    position: relative;
     padding: 8.25vw 9.375vw;
+    border: 1px  solid #F580F7;
     animation: fadeIn 0.3s linear forwards;
+    border-radius: 1.563vw;
     &.active {
       display: block;
-
     }
     .close-menu {
       position: absolute;
@@ -256,11 +270,12 @@ $a45: 2.344vw;
       color: #4733DC;
       font-size: 27.5vw;
       position: absolute;
-      left: 12vw;
-      top: 54vw;
+      left: 6vw;
+      top: 52vw;
       transform: rotate(-90deg);
       font-weight: 700;
       z-index: -1;
+      letter-spacing: -0.04em;
     }
     ul {
       padding-top: 2vw;
@@ -294,10 +309,10 @@ $a45: 2.344vw;
         left: 0;
       }
       span.one {
-        bottom: 63vw;
+        bottom: 53vw;
      }
       span.two {
-        bottom: 36.5vw;
+        bottom: 28.5vw;
       }
     }
     &-contacts {
@@ -2383,14 +2398,14 @@ span.bold {
       
     }
     ul {
-      padding: 4.038vw 1.03vw;
+      padding: 3.038vw 1.03vw;
       padding-top: 11vw;
-      transform: translate(-11%, -30%);
+      transform: translate(-11%, -26%);
       width: 25vw;
       li {
-        font-size: 3.518vw;
+        font-size: 5vw;
         &:not(:last-child) {
-          margin-bottom: 3.599vw;
+          margin-bottom: 4.599vw;
       }
       }
     }
