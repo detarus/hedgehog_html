@@ -137,7 +137,7 @@ body.isMobileOpen {
 }
 .c-modal.active {
   display: flex;
-  padding-top: 32vw;
+  align-items: center;
   justify-content: center;
 }
 

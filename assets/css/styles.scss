@@ -55,7 +55,7 @@ $a45: 2.344vw;
   animation: fadeIn 0.3s linear forwards;
   &.active {
     display: flex;
-    padding-top: 32vw;
+    align-items: center;
     justify-content: center;
   }
 }
