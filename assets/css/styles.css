@@ -1076,6 +1076,7 @@ span.bold {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   width: 100%;
+  transition: 0.3s;
 }
 .contacts__form-field.required {
   border: 1px solid red;
@@ -1090,12 +1091,15 @@ span.bold {
   border: none;
   outline: none;
   border: 1px solid #F580F7;
+  transition: 0.3s;
 }
 .contacts__form-field:active + label, .contacts__form-field:focus + label {
   color: #F580F7;
+  transition: 0.3s;
 }
 .contacts__form-field:active + span, .contacts__form-field:focus + span {
   color: #F580F7;
+  transition: 0.3s;
 }
 .contacts__form-field.textarea {
   height: 100%;
@@ -1117,6 +1121,7 @@ span.bold {
 }
 .contacts__form-label {
   position: absolute;
+  transition: 0.3s;
   left: 1vw;
   top: 0;
   text-transform: uppercase;
@@ -1158,6 +1163,11 @@ span.bold {
   margin: 0 auto;
   background: transparent;
   font-size: 1.25vw;
+  transition: 0.3s;
+}
+.contacts__form-button:hover {
+  color: #F580F7;
+  border-color: #F580F7;
 }
 .contacts__form-success {
   position: absolute;
