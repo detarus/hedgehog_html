@@ -2368,6 +2368,19 @@ span.bold {
     transform: translate(-11%, -26%);
     width: 25vw;
   }
+  .languages ul:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #543EFA;
+    transform: translate(-50%, -50%);
+    border-radius: 2.344vw;
+    pointer-events: none;
+  }
   .languages ul li {
     font-size: 5vw;
   }
