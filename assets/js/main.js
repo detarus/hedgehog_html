@@ -62,27 +62,34 @@ function smoothScroll(target, duration) {
 
 // Language switcher
 document.addEventListener('DOMContentLoaded', function() {
-  const languageToggle = document.querySelector('.languages__current');
   const currentURL = window.location.pathname;
 
+  // Обновляем каждый переключатель языка на странице
   function setLanguage(lang) {
-    languageToggle.textContent = lang;
+    document.querySelectorAll('.languages__current').forEach(element => {
+      element.textContent = lang;
+    });
   }
 
+  // Проверяем URL для установки языка по умолчанию
   if (currentURL.includes('/ru')) {
     setLanguage('RU');
   } else {
     setLanguage('EN');
   }
 
-  const languageLinks = document.querySelectorAll('.languages ul li a');
-  languageLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
-      const targetLang = event.target.textContent.trim();
-      setLanguage(targetLang === 'Russian' ? 'RU' : 'EN');
+  // Добавляем обработчики событий на все переключатели языка
+  document.querySelectorAll('.languages').forEach(languageContainer => {
+    const languageLinks = languageContainer.querySelectorAll('ul li a');
+    languageLinks.forEach(link => {
+      link.addEventListener('click', function(event) {
+        const targetLang = event.target.textContent.trim();
+        setLanguage(targetLang === 'Russian' ? 'RU' : 'EN');
+      });
     });
   });
 });
+
 
 // ------------------------------------------------
 
