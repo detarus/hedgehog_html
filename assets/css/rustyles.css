@@ -157,5 +157,9 @@ h1 {
     .geography__item {
       margin-right: 4.688vw!important;
     }
+
+    .footer__word {
+      margin-left: -3vw;
+    }
   
 }
