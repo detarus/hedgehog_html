@@ -119,7 +119,7 @@ $a45: 2.344vw;
     padding: 0.781vw $a30;
     height: 100%;
     border-radius: $a30;
-    font-family: 'Cera Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     ul {
       display: flex;
       gap: $a30;
@@ -128,6 +128,7 @@ $a45: 2.344vw;
         cursor: pointer;
         transition: 0.3s;
         z-index: 5;
+        font-weight: 500;
         &:hover:before {
           opacity: 1;
         }
@@ -180,12 +181,12 @@ $a45: 2.344vw;
     }
   }
   &__contact-us {
-    font-family: 'Cera Pro-bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: $subcolor;
     background-color: $mainColor;
     font-size: 0.833vw;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     padding: $a10 $a30;
     border-radius: $a45;
@@ -202,12 +203,12 @@ $a45: 2.344vw;
     }
   }
   &__login {
-    font-family: 'Cera Pro-bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: $subcolor;
     background-color: $green;
     font-size: 0.833vw;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     padding: $a10 $a30;
     border-radius: $a45;
@@ -248,7 +249,7 @@ $a45: 2.344vw;
   &__mobile-menu {
     background-color: $subcolor;
     width: 87.5vw;
-    height: 142.5vw;
+    height: 149.4vw;
     z-index: 10;
     overflow: hidden;
     position: relative;
@@ -282,7 +283,7 @@ $a45: 2.344vw;
       padding-top: 2vw;
       color: #fff;
       font-size: 5vw;
-      font-family: 'Cera Pro', sans-serif;
+      font-family: 'Poppins', sans-serif;
       margin-bottom: 9.375vw;
       text-align: center;
       li {
@@ -317,7 +318,7 @@ $a45: 2.344vw;
       }
     }
     &-contacts {
-      font-family: "Cera Pro-bold", sans-serif;
+      font-family: "Poppins", sans-serif;
       width: 45.313vw;
       text-transform: uppercase;
       border-radius: 9.375vw;
@@ -329,7 +330,7 @@ $a45: 2.344vw;
       font-size: 5vw;
     }
     &-login {
-      font-family: "Cera Pro-bold", sans-serif;
+      font-family: "Poppins", sans-serif;
       width: 69vw;
       margin: 0 auto;
       background-color: #BEF941;
@@ -378,7 +379,7 @@ $a45: 2.344vw;
     text-align: center;
     text-transform: uppercase;
     color: $subcolor;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.25vw;
     position: absolute;
     right: 17vw;
@@ -439,7 +440,7 @@ $a45: 2.344vw;
   z-index: 5;
   &__container {
     position: relative;
-    font-family: 'Cera Pro-bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: $subcolor;
     text-transform: uppercase;
     background:#fff;
@@ -448,7 +449,7 @@ $a45: 2.344vw;
     padding: $a10 $a30;
     display: flex;
     align-items: center;
-    font-weight: 700;
+    font-weight: 600;
     gap: 0.25vw;
     border: 1px solid transparent;
     transition: 0.3s;
@@ -479,11 +480,12 @@ $a45: 2.344vw;
     opacity: 0;
     transition: opacity 0.3s;
     li {
-      font-family: 'Cera Pro-bold', sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-size: 0.833vw;
       text-transform: uppercase;
       line-height: 0.9em;
       transition: color 0.3s;
+      font-weight: 600;
       &:not(:last-child) {
         margin-bottom: 0.75vw;
       }
@@ -882,7 +884,7 @@ span.bold {
     font-size: 1.667vw;
     background-color: #F580F7;
     text-transform: uppercase;
-    font-family: "Cera Pro-bold", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     border-radius: 4.688vw;
     padding: 0.96vw 0;
@@ -1068,7 +1070,8 @@ span.bold {
       color: #BEF941;
       transform: translate(0%, -50%);
       font-size: 0.833vw;
-      font-family: 'Cera Pro-bold', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
       &:before {
         content: '';
         background-color: #151529;
@@ -1090,11 +1093,11 @@ span.bold {
       margin-bottom: 2.604vw;
     }
     &-button {
-      font-family: 'Cera Pro-bold', sans-serif;
+      font-family: 'Poppins', sans-serif;
       color: #BEF941;
       text-transform: uppercase;
       text-align: center;
-      font-weight: 700;
+      font-weight: 600;
       border: 2px solid #BEF941;
       border-radius: 3.646vw;
       display: block;
@@ -1200,7 +1203,7 @@ span.bold {
     justify-content: center;
     gap: 2.604vw;
     color: #EFEFEF;
-    font-family: 'Cera Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 5.208vw;
     li {
       text-transform: uppercase;
@@ -2171,7 +2174,7 @@ span.bold {
       font-size: 5.313vw;
       width: 40.024vw;
       height: 10.396vw;
-      padding: 2.2vw;
+      padding: 1.5vw 0 2.2vw;
       border-radius: 15vw;
       &:before {
         border-radius: 15vw;
@@ -2315,7 +2318,7 @@ span.bold {
       color: #fff;
       text-transform: uppercase;
       font-size: 5vw;
-      font-family: 'Cera Pro', sans-serif;
+      font-family: 'Poppins', sans-serif;
       margin-bottom: 15.625vw;
       li {
         &:hover {
